@@ -2,6 +2,7 @@
   host: !secret nzbget_host
   username: !secret nzbget_username
   password: !secret nzbget_password
+  port: !secret nzbget_port
   monitored_variables:
     - article_cache
     - download_rate

@@ -1,30 +1,21 @@
 ###################################
-##  DarkSky Section
-###################################
-sensor.dark_sky_minutely_summary:
-  friendly_name: 'Current Conditions'
-  icon: mdi:beach
-
-sensor.dark_sky_precip_intensity:
-  friendly_name: 'Rainfall'
-
-sensor.dark_sky_humidity:
-  friendly_name: 'Outdoor Humidity'
-
-sensor.dark_sky_temperature:
-  friendly_name: 'Outdoor Temp'
-
-###################################
 ##  Nest Section
 ###################################
-climate:
-  friendly_name: 'Nest Thermostat'
+climate.downstairs:
+  friendly_name: 'Nest Downstairs'
+  icon: mdi:air-conditioner
+climate.upstairs:
+  friendly_name: 'Nest Upstairs'
   icon: mdi:air-conditioner
 
-sensor.humidity:
+sensor.downstairs_humidity:
+  icon: mdi:water-percent
+sensor.upstairs_humidity:
   icon: mdi:water-percent
 
-sensor.away_mode:
+sensor.upstairs_away_mode:
+  hidden: true
+sensor.downstairs_away_mode:
   hidden: true
 
 ###################################

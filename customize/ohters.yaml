@@ -1,0 +1,4 @@
+sensor.denon:
+  icon: mdi:television
+device_tracker.denon:
+  hidden: true

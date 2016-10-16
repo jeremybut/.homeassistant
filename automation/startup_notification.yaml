@@ -1,0 +1,8 @@
+- alias: Startup Notification
+  hide_entity: True
+  trigger:
+    platform: event
+    event_type: homeassistant_start
+  action:
+    service: ifttt.trigger
+    data: {"event":"device_status", "value1":"Home Assistant", "value2":"Up and Running"}

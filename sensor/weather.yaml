@@ -1,0 +1,12 @@
+- platform: forecast
+  api_key: !secret forecast_key
+
+  monitored_conditions:
+    - precip_intensity
+    - temperature
+    - humidity
+    - minutely_summary
+
+- platform: nest
+  monitored_conditions:
+     - 'humidity'

@@ -1,0 +1,18 @@
+- platform: template
+  sensors:
+    denon:
+      friendly_name: 'Denon'
+      value_template: >-
+          {%- if is_state("device_tracker.denon", "home") %}
+              Online
+          {% else %}
+              Offline
+          {%- endif %}
+      # xbox:
+      #   friendly_name: 'Xbox'
+      #   value_template: >-
+      #       {%- if is_state("device_tracker.xbox", "home") %}
+      #           Online
+      #       {% else %}
+      #           Offline
+      #       {%- endif %}

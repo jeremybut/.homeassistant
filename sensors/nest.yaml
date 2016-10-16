@@ -1,5 +1,0 @@
-- platform: template
-  sensors:
-     away_mode:
-       entity_id: climate
-       value_template: "{{ is_state_attr('climate', 'away_mode', 'on') }}"

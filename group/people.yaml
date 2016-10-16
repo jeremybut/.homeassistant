@@ -1,0 +1,7 @@
+Family:
+  entities:
+    - device_tracker.jeremy_phone
+    - device_tracker.jeremy_pc
+    - device_tracker.laetitia_phone
+    - device_tracker.laetitia_pc
+    - device_tracker.mathilde_tablette

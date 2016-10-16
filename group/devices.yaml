@@ -1,4 +1,6 @@
 Network:
   entities:
     - sensor.speedtest_download
-    - sensor.braviatv
+    - sensor.speedtest_upload
+    - sensor.denon
+    # - sensor.xbox

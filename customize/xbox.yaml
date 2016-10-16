@@ -1,0 +1,4 @@
+# sensor.xbox:
+#   icon: mdi:gamepad-variant
+# device_tracker.xbox:
+#   hidden: true

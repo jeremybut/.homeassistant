@@ -1,0 +1,7 @@
+Info:
+  view: yes
+  entities:
+    - group.family
+    - group.devices
+    - group.sensors
+    - group.weather

@@ -1,0 +1,47 @@
+homeassistant:
+  name: Maison
+  latitude: !secret homeassistant_latitude
+  longitude: !secret homeassistant_longitude
+  elevation: !secret homeassistant_elevation
+  unit_system: metric
+  time_zone: Europe/Paris
+  customize: !include_dir_merge_named customize
+
+http:
+  api_password: !secret http_api_password
+
+frontend:
+group: !include_dir_merge_named group
+discovery:
+updater:
+sun:
+conversation:
+logbook:
+history:
+zeroconf:
+
+climate:
+  platform: nest
+
+nest:
+  username: !secret nest_username
+  password: !secret nest_password
+
+media_player denon:
+  platform: denon
+  host: !secret denon_host
+  name: Denon AVR 1912
+
+media_player cast:
+  platform: cast
+  host: !secret cast_host
+
+media_player braviatv:
+  platform: braviatv
+  host: !secret braviatv_host
+
+media_player kodi:
+  platform: kodi
+  host: !secret kodi_host
+
+sensor: !include_dir_merge_list sensors

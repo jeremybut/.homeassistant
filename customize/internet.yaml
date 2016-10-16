@@ -1,0 +1,12 @@
+###################################
+##  Speedtest Section
+###################################
+sensor.speedtest_download:
+  friendly_name: 'Download'
+  icon: mdi:speedometer
+
+###################################
+##  Circle by Disney Section
+###################################
+sensor.circle:
+  icon: mdi:google-circles-group

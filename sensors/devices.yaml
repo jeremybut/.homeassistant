@@ -1,0 +1,10 @@
+- platform: template
+  sensors:
+    braviatv:
+      friendly_name: 'SONY Bravia TV'
+      value_template: >-
+          {%- if is_state("device_tracker.braviatv", "home") %}
+              Online
+          {% else %}
+              Offline
+          {%- endif %}

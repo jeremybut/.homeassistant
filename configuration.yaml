@@ -24,8 +24,8 @@ climate:
   platform: nest
 
 nest:
-  username: !secret nest_username
-  password: !secret nest_password
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
 
 media_player denon:
   platform: denon

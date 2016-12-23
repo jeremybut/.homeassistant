@@ -4,6 +4,5 @@ home-assistant.log
 home-assistant_v2.db
 *.db-journal
 lib
-deps
 secrets.yaml
 known_devices.yaml

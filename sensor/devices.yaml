@@ -4,9 +4,9 @@
       friendly_name: 'Denon'
       value_template: >-
           {%- if is_state("device_tracker.denon", "home") %}
-              Online
+              On
           {% else %}
-              Offline
+              Off
           {%- endif %}
       # xbox:
       #   friendly_name: 'Xbox'
